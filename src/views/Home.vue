@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los primeros años de vida, los vínculos afectivos desempeñan un papel esencial en el desarrollo emocional y social de los niños. En esta primera unidad, se explorará cómo la afectividad y las relaciones interpersonales impactan el crecimiento integral durante la infancia, abordando conceptos clave como la emotividad, el apego y los vínculos seguros. Además, se analizarán los estadíos del desarrollo afectivo y las teorías de autores reconocidos que han aportado al entendimiento de la afectividad y sus componentes.
+              p.descripcion.mb-4 Desde el nacimiento, los seres humanos establecen conexiones emocionales que son esenciales para su desarrollo integral. Estos vínculos, que se forman a lo largo de las diferentes etapas de la vida, son determinantes para el bienestar emocional, social y psicológico de las personas. En esta unidad, exploraremos cómo los vínculos afectivos influyen en el desarrollo socioafectivo, abordando conceptos clave como la teoría del apego, las tipologías de vínculo y el manejo de la inteligencia emocional.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para aprender cómo los vínculos afectivos transforman el desarrollo emocional en la infancia y cómo puede ser parte de ese cambio positivo!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para explorar el fascinante mundo de las relaciones humanas y desarrollar competencias socioemocionales que enriquecerán su vida personal y profesional!
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto

@@ -1,1 +1,2 @@
-module.exports = 'Unidad 1. Afectividad, vínculo y relaciones'
+module.exports =
+  'Unidad 2. Tipologías del vínculo afectivo como base del desarrollo'

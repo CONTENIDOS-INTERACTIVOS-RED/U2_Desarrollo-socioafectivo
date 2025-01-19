@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Afectividad, vínculo y relaciones',
+    numeroUnidad: '2',
+    tituloUnidad: 'Tipologías del vínculo afectivo como base del desarrollo',
   },
   menuPrincipal: {
     menu: [
@@ -31,32 +31,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Afectividad, vínculo y relaciones',
+        titulo: 'Tipologías del vínculo afectivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'La afectividad para la psicología',
+            titulo: 'Implicaciones para el desarrollo',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'La afectividad en la filosofía',
+            titulo: 'Teoría del apego: conceptualización inicial',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'La afectividad y sus componentes',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Etapas del desarrollo afectivo, según Piaget',
-            hash: 't_1_4',
           },
         ],
       },
@@ -64,33 +52,27 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Qué son los vínculos para los niños',
+        titulo: 'Introducción a la teoría del apego, de John Bowlby',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'El concepto de vínculo y su importancia',
+            titulo: 'La teoría del apego, de John Bowlby',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'El impacto de los vínculos en el desarrollo emocional y social',
+            titulo: 'Etapas del desarrollo del apego',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'El papel de los vínculos afectivos en la primera infancia',
+            titulo:
+              'Implicaciones de las tipologías del apego para el desarrollo',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'El contexto educativo y los vínculos afectivos',
-            hash: 't_2_4',
           },
         ],
       },
@@ -98,21 +80,34 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Relaciones interpersonales en la infancia',
+        titulo:
+          'Manejo y desarrollo de la inteligencia emocional, desde sus diferentes etapas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'El juego como el motor principal de las relaciones sociales en la infancia',
+            titulo: 'Concepciones de emoción e inteligencia',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'El contexto escolar y las relaciones',
+            titulo: '¿Qué es la inteligencia emocional?',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo:
+              'Manejo y desarrollo de la inteligencia emocional en diferentes etapas de la vida',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'La teoría ecológica de Urie Bronfenbrenner',
+            hash: 't_3_4',
           },
         ],
       },
@@ -154,14 +149,103 @@ export default {
   referencias: [
     {
       referencia:
-        'Ainsworth, M. D. S. (1978). The Bowlby-Ainsworth attachment theory. In S. R. S. Van Ijzendoorn & M. D. S. La teoría del apego de Bowlby-Ainsworth. The attachment system in human development (pp. 36-60).',
+        'Ainsworth, M. S. (1989). Attachments beyond infancy. American Psychologist, 44(4), 709–716.',
+      link: 'https://psycnet.apa.org/doi/10.1037/0003-066X.44.4.709',
+    },
+    {
+      referencia:
+        'Duran, S (2023). Teoría del Capital Social de Putnam (Capital Social) Eurekando.org.',
+      link:
+        'https://www.eurekando.org/ciencias-sociales/teoria-del-capital-social-de-putnam-capital-social/',
+    },
+    {
+      referencia:
+        'Fairbairn, W. R. D. (1952). Psychoanalytic studies of the personality. Routledge.',
+      link: 'https://archive.org/details/psychoanalyticst00fair_0',
+    },
+    {
+      referencia:
+        'Harlow, H. F. (1958). The nature of love. American Psychologist, 13(12), 673-685.',
+      link: 'https://doi.org/10.1037/h0047884',
+    },
+    {
+      referencia:
+        'Harlow, H. F., & Suomi, S. J. (1971). Social recovery by isolation-reared monkeys. Proceedings of the National Academy of Sciences, 68(7), 1534-1538.',
+      link: 'https://doi.org/10.1073/pnas.68.7.1534',
+    },
+    {
+      referencia:
+        'Lafuente Benaches, M. J. & Cantero López, M. J. (2016). Vinculaciones afectivas: apego, amistad y amor: (ed.). Difusora Larousse - Ediciones Pirámide.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/49152?page=256',
+    },
+    {
+      referencia:
+        'Martin, R.R. D. (2013, febrero 27). El Vínculo Afectivo y la Teoría del Apego. Psicologia - Autoayuda - Autoestima - Felicidad.',
+      link: 'https://psicologiayautoayuda.com/psicologia/el-vinculo-afectivo/',
+    },
+    {
+      referencia:
+        'MONETA C, MARÍA EUGENIA. (2014). Apego y pérdida: redescubriendo a John Bowlby. Revista chilena de pediatría, 85(3), 265-268.',
+      link:
+        'https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0370-41062014000300001&lng=en&nrm=iso&tlng=en',
+    },
+    {
+      referencia:
+        'Puerta, A. R. (8 de julio de 2021,). Vínculos afectivos. Lifeder.',
+      link: 'https://www.lifeder.com/vinculos-afectivos/',
+    },
+    {
+      referencia:
+        'Sternberg, R. J. (1986). A triangular theory of love. Psychological Review, 93 (2), 119-135.',
+      link: 'https://doi.org/10.1037/0033-295X.93.2.119',
+    },
+    {
+      referencia:
+        'Weiss, R. S. (1974). The provisions of social relationships. In Z. Rubin (Ed.), Doing unto others (pp. 17-26). Prentice-Hall.',
+      link: 'https://psycnet.apa.org/record/1986-21992-001',
+    },
+    {
+      referencia: 'Ainsworth & Bell, (1970).',
+      link:
+        'https://psychologysorted.blog/wp-content/uploads/2019/03/ainsworth-and-bell._1970.pdf',
+    },
+    {
+      referencia:
+        'Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244.',
+      link: 'https://doi.org/10.1037/0022-3514.61.2.226',
+    },
+    {
+      referencia:
+        'Duran, S. (2023). Teoría del Apego de Mary Ainsworth (Tipos de Apego). Eurekando.org',
+      link:
+        'https://www.eurekando.org/psicologia/teoria-del-apego-de-mary-ainsworth-tipos-de-apego/',
+    },
+    {
+      referencia: 'Bowlby - El Apego y La Pérdida-1. (1998).',
+      link:
+        'https://drive.google.com/file/d/1k4ZI6HdDZojr_l2LNtbYqZR6_Sx8cRN6/view',
+    },
+    {
+      referencia:
+        'Cassidy, J., & Shaver, P. R. (Eds.). (2016). Handbook of attachment: Theory, research, and clinical applications (3rd ed.). Guilford Press.',
+      link: 'https://onlinelibrary.wiley.com/doi/10.1002/imhj.21730',
+    },
+    {
+      referencia:
+        'Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation.',
       link: null,
     },
     {
       referencia:
-        'Berger, K. S. (2007). Psicologia del desarrollo. Infancia y adolescencia.',
+        'Salovey, P., & Mayer, J. D. (1990). Emotional intelligence. Imagination, Cognition and Personality, 9 (3), 185–211.',
+      link: 'https://scholars.unh.edu/psych_facpub/450/',
+    },
+    {
+      referencia:
+        'Winnicott, D. W. (1965). The maturational processes and the facilitating environment: Studies in the theory of emotional development. International Universities Press.',
       link:
-        'https://archive.org/details/psicologia-del-desarrollo-infancia-y-adolescencia-',
+        'https://selfdefinition.org/burns/DW-Winnicott-The-Maturational-Process-and-the-Facilitating-Environment-1965.pdf',
     },
     {
       referencia:
@@ -170,190 +254,110 @@ export default {
     },
     {
       referencia:
-        'Dahl, R. (2006). Matilda. Santillana Ediciones Generales, S.L. Alfaguara.',
-      link: null,
-    },
-    {
-      referencia:
-        'Descartes, R. (2001). Las pasiones del alma. (J. C. de la Vega, Ed.). Ediciones Akal.',
-      link: null,
-    },
-    {
-      referencia: 'Freud, S. (1920). Más allá del principio del placer.',
-      link: null,
-    },
-    {
-      referencia:
-        'Fuentes, A. S. (1 de diciembre de 2013). El desarrollo afectivo en educación infantil. Portal educativo: Educa y Aprende.',
+        'Carneros, P. Á. (2015, junio 2). La Teoría Ecológica de Urie Bronfenbrenner. pymOrganization.',
       link:
-        'https://educayaprende.com/el-desarrollo-afectivo-en-educacion-infantil/',
-    },
-    {
-      referencia: 'Goleman, D. (1995). Emotional intelligence. Bantam Books.',
-      link: null,
+        'https://psicologiaymente.com/desarrollo/teoria-ecologica-bronfenbrenner',
     },
     {
       referencia:
-        'Gracia, E., & Herrero, J. (2006). La comunidad como fuente de apoyo social: Evaluación e implicaciones en los ámbitos individual y comunitario. Revista Latinoamericana de Psicología, 38(2), 299-312.',
-      link: null,
-    },
-    {
-      referencia:
-        'Husserl, E. (1970). Investigaciones lógicas. (J. M. de la Vega, Ed.). Ediciones Losada.',
-      link: null,
-    },
-    {
-      referencia:
-        'Marino, A. (7 de diciembre de 2018). Aristóteles (384 a.C.-322 a.C.). Historiando.org.',
-      link: 'https://historiando.org/aristoteles/',
-    },
-    {
-      referencia:
-        'Mimenza, O. C. (28 de junio de 2018). Jean Piaget: biografía del padre de la Psicología Evolutiva. pymOrganization.',
-      link: 'https://psicologiaymente.com/biografias/jean-piaget',
-    },
-    {
-      referencia:
-        'Mora Muñoz, J. (2024). La importancia del vínculo y la comunicación con el bebé en el vientre. Psicología y Mente.',
-      link: 'https://psicologiaymente.com/psicologia/importancia-',
-    },
-    {
-      referencia:
-        'Olweus, D. (1993). Bullying at school: What we know and what we can do. Wiley-Blackwell.',
-      link: null,
-    },
-    {
-      referencia:
-        'Páez, D. Zuleta, E. (2023) Dimensiones Culturales Individualismo Colectivismo. Studocu.',
+        'Charles Chaplin: el poema sobre inteligencia emocional que no puedes dejar de leer. (14 de marzo 2017). PQS.',
       link:
-        'https://www.studocu.com/co/document/universidad-popular-del-cesar/psicologia-politica/corte-3-no-1-dimensiones-culturales-individualismo-colectivismo/28855917',
+        'https://pqs.pe/aprende-mas/charles-chaplin-el-poema-sobre-inteligencia-emocional-que-no-puedes-dejar-de-leer/',
     },
     {
       referencia:
-        'Pérez, H. J. (2017). El desarrollo afectivo según Jean Piaget. Revista Vinculando.',
+        'Darwin, C. R. (1872). The expression of the emotions in man and animals. London: John Murray. 1st edition.',
       link:
-        'https://vinculando.org/wp-content/uploads/kalins-pdf/singles/desarrollo-afectivo-jean-piaget.pdf',
+        'https://darwin-online.org.uk/content/frameset?pageseq=1&itemID=F1142&viewtype=text',
     },
     {
       referencia:
-        'Quintero, L. J., & Leiva, M. Y. (2015). Desarrollo emocional y afectivo en la primera infancia. Universidad Nacional Abierta y a Distancia.',
-      link: null,
-    },
-    {
-      referencia:
-        'REBUELTA CHO, A. P., (2015). Un prisma en la diversidad: alternativas en transformación. Revista de Antropología Social, 24(), 460-465.',
-      link: null,
-    },
-    {
-      referencia:
-        'Regader, B. (29 de mayo de 2015). La Teoría del Desarrollo Psicosocial de Erik Erikson. pymOrganization.',
+        'Descartes, R (1649). Tratado de LAS PASIONES DEL ALMA (1649).',
       link:
-        'https://psicologiaymente.com/desarrollo/teoria-del-desarrollo-psicosocial-erikson',
+        'http://23118.psi.uba.ar/academica/carrerasdegrado/psicologia/informacion_adicional/obligatorias/034_historia_2/Archivos/Descartes_pasiones.pdf',
     },
     {
       referencia:
-        "Rogers, C. R. (1961). On becoming a person: A therapist's view of psychotherapy. Houghton Mifflin.",
+        'Deci, E. L., & Ryan, R. M. (1985). Intrinsic motivation and self-determination in human behavior. Springer.',
+      link: null,
+    },
+    {
+      referencia: 'Gardner, H. (1983). Estructuras de la mente.',
+      link: null,
+    },
+    {
+      referencia: 'Goleman, D. (1995). La inteligencia emocional.',
       link: null,
     },
     {
       referencia:
-        'Roncallo, C. P., Sánchez de Miguel, M., & Arranz Freijo, E. (2015). Vínculo materno-fetal: implicaciones en el desarrollo psicológico y propuesta de intervención en atención temprana. Escritos de Psicología, 8(2), 1-10.',
-      link: 'https://dx.doi.org/10.5231/psy.writ.2015.0706',
-    },
-    {
-      referencia:
-        'Shonkoff, J. P., & Phillips, D. A. (Eds.). (2000). From neurons to neighborhoods: The science of early childhood development. National Academies Press.',
-      link: null,
-    },
-    {
-      referencia:
-        'Spinoza, B. (2004). Ética. (A. R. de la Vega, Ed.). Ediciones Istmo.',
-      link: null,
-    },
-    {
-      referencia:
-        'Sternberg, R. J. (1986). A triangular theory of love. Psychological Review, 93(2), 119-135.',
-      link: null,
-    },
-    {
-      referencia:
-        'Teoría de la emoción de William James. (11 de marzo de 2023). Teorías de todo y para todo.',
+        'Gross, J. J. (1998). The emerging field of emotion regulation.',
       link:
-        'https://teorias.ar/teorias/teoria-de-la-emocion-de-william-james/?',
+        'https://emotion.wisc.edu/wp-content/uploads/sites/1353/2021/11/Gross-1998-The-Emerging-Field-of-Emotion-Regulation-An-Integrative-Review.pdf',
     },
     {
       referencia:
-        'Torrealba, J. (27 de diciembre de 2021). ¿Qué es la teoría de Wallon y cuáles son sus aportes? TuInfoSalud.',
-      link: 'https://www.tuinfosalud.com/articulos/teoria-de-wallon/',
-    },
-    {
-      referencia:
-        'Tortez, M. (1 de mayo, 2024). Afectividad: Definición, Evolución y Concepto en Psicología. Definipedia.',
+        'Hoffman, M. L. (2000). Empathy and moral development: Implications for caring and justice. Cambridge University Press',
       link:
-        'https://definicion.conceptualista.com/concepto-de-afectividad-psicologia/',
+        'https://www.researchgate.net/publication/287443929_Empathy_and_Moral_Development_Implications_for_Caring_and_Justice',
     },
     {
       referencia:
-        'Triglia, A. (25 de agosto de 2016). El experimento de Harlow y la privación materna: sustituyendo a la madre. pymOrganization.',
+        'Rodríguez, A. (13 de junio de 2018). La teoría ecológica de Bronfenbrenner. La Mente es Maravillosa.',
       link:
-        'https://psicologiaymente.com/psicologia/experimento-harlow-privacion-materna',
-    },
-    {
-      referencia:
-        'Vygotsky, L. S. (1978). Mind in society: The development of higher psychological processes. Harvard University Press.',
-      link: null,
+        'https://lamenteesmaravillosa.com/la-teoria-ecologica-de-bronfenbrenner/',
     },
   ],
   glosario: [
     {
-      termino: 'Afectividad',
+      termino: 'Apego',
       significado:
-        'Capacidad de experimentar y expresar emociones y sentimientos. Es fundamental en el desarrollo emocional y social de una persona.',
+        'Vínculo emocional profundo y duradero que se forma entre un niño y su cuidador principal, fundamental para el desarrollo emocional y social.',
     },
     {
-      termino: 'Amistad',
+      termino: 'Ansiedad',
       significado:
-        'Relación afectiva entre dos o más personas basada en la confianza, el respeto y el apoyo mutuo. En la infancia, las amistades son cruciales para el desarrollo de habilidades sociales y emocionales.',
+        'Estado emocional de inquietud y temor que puede surgir en niños con apego ansioso-ambivalente debido a la inconsistencia en la respuesta del cuidador.',
     },
     {
-      termino: 'Descentración',
+      termino: 'Autonomía',
       significado:
-        'Proceso por el cual el niño empieza a considerar perspectivas y emociones de otros, alejándose de un enfoque egocéntrico. Es clave en el desarrollo afectivo según Piaget.',
+        'Capacidad de un individuo para actuar de manera independiente, que se desarrolla mejor en niños con apego seguro.',
     },
     {
-      termino: 'Egocentrismo',
+      termino: 'Confianza',
       significado:
-        'Tendencia de los niños pequeños a ver el mundo desde su propia perspectiva, sin considerar las opiniones o sentimientos de los demás. Este concepto es importante en los primeros estadios de Piaget.',
+        'Sentimiento de seguridad y certeza en la disponibilidad y apoyo del cuidador, característico del apego seguro.',
     },
     {
-      termino: 'Empatía',
+      termino: 'Desorganizado',
       significado:
-        'Capacidad de comprender y compartir los sentimientos de los demás, fundamental para la formación de vínculos afectivos saludables y el desarrollo social.',
+        'Tipo de apego en el que el niño muestra comportamientos contradictorios y confusos, a menudo debido a experiencias de abuso o negligencia.',
     },
     {
-      termino: 'Interacción',
+      termino: 'Evitativo',
       significado:
-        'Proceso de comunicación y relación entre el niño y sus cuidadores, esencial para el desarrollo emocional y la construcción de vínculos afectivos.',
+        'Tipo de apego en el que el niño evita la proximidad emocional con el cuidador, posiblemente como una estrategia para protegerse del rechazo.',
     },
     {
-      termino: 'Seguridad',
+      termino: 'Exploración',
       significado:
-        'Sentimiento de confianza y protección que el niño experimenta cuando tiene vínculos afectivos estables y seguros con sus cuidadores.',
+        'Comportamiento de los niños de investigar su entorno, que es más seguro y frecuente en aquellos con apego seguro.',
     },
     {
-      termino: 'Simbolización',
+      termino: 'Inseguridad',
       significado:
-        'Capacidad de usar símbolos, como palabras o imágenes, para representar objetos o situaciones ausentes. Esta habilidad es crucial para el desarrollo cognitivo y afectivo en los estadios de Piaget.',
+        'Sentimiento de duda y falta de confianza en la disponibilidad del cuidador, común en niños con apego ansioso-ambivalente.',
     },
     {
-      termino: 'Socialización',
+      termino: 'Persistencia',
       significado:
-        'Proceso mediante el cual el niño aprende y adopta comportamientos y normas sociales a través de sus interacciones y vínculos con los demás.',
+        'Característica de los vínculos afectivos que se mantienen a lo largo del tiempo y no son transitorios.',
     },
     {
-      termino: 'Valores',
+      termino: 'Proximidad',
       significado:
-        'Principios o normas que guían el comportamiento y las decisiones de una persona. En los estadios de Piaget, los niños desarrollan un sistema de valores que influye en su afectividad y moralidad.',
+        'Búsqueda de cercanía física y emocional con el cuidador, esencial en todos los tipos de apego.',
     },
   ],
   complementario: [

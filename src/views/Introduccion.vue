@@ -3,29 +3,47 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .row.mb-4
-      .col-12.col-xl-7.d-flex.flex-column
-        p.mb-4 Bienvenidos a la Unidad 1 de la asignatura "Desarrollo socioafectivo y vínculo", donde estudiaremos conceptos fundamentales del desarrollo emocional y social en la infancia, como la emotividad y los vínculos afectivos que los niños forman en esta etapa. 
-        .d-flex.mb-4.align-items-start.bg-azul.p-4(data-aos="fade-up")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-1.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") Al finalizar, los estudiantes conocerán la teoría educativa relacionada con el desarrollo afectivo y el vínculo, y serán capaces de aplicar esta teoría, de manera crítica, en diferentes contextos. Este conocimiento les permitirá comprender mejor cómo los vínculos afectivos influyen en el desarrollo infantil y cómo pueden apoyar a los niños en su crecimiento emocional y social.
-        span El estudio de la <b>afectividad</b> y los <b>vínculos en la infancia</b>, es fundamental no solo para aquellos que trabajan directamente con niños, como educadores y psicólogos, sino también para cualquier persona interesada en el desarrollo humano. 
-      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')  
+    .bg-fondo-2.bg-full-width
+      .px-5.pb-md-3.py-4
 
-    p.mb-4 Comprender estos conceptos les permitirá mejorar sus habilidades interpersonales y aplicar estos conocimientos en el ámbito profesional, contribuyendo a la creación de entornos más empáticos y comprensivos.
+        .row.mb-4
+          .col-12.col-xl-7
+            p.mb-4 En esta unidad, explicaremos las diversas tipologías del vínculo afectivo y su importancia fundamental en el desarrollo humano. Comenzaremos con una introducción a la teoría del apego, de John Bowlby, que nos proporcionará una base sólida para entender cómo los vínculos tempranos influyen en el desarrollo emocional y social a lo largo de la vida. Además, abordaremos el manejo y desarrollo de la inteligencia emocional en sus diferentes etapas, destacando cómo estas habilidades pueden ser cultivadas y fortalecidas desde la infancia hasta la adultez.
+            .bg-gris.p-4.mb-4(data-aos="fade-up")
+              span El estudio de los vínculos afectivos y la inteligencia emocional, es crucial para comprender el comportamiento humano y las relaciones interpersonales. A través de esta unidad, los estudiantes conocerán las ideas expuestas por los autores estudiados en clase, logrando escribir ensayos sobre sus teorías y aplicando estos conceptos a situaciones prácticas.
+            span Al finalizar esta unidad, los estudiantes serán capaces de:
+          .col-5.d-none.d-xl-block
+            img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')  
+
+        .row.mb-4.justify-content-center 
+          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-2.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center Conocer y explicar las tipologías del vínculo afectivo.
+          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos="fade-up")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-3.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center Comprender la teoría del apego de John Bowlby y su relevancia en el desarrollo humano.
+          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos="fade-up")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-4.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center Manejar y desarrollar la inteligencia emocional en sus diferentes etapas.
+          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos="fade-left")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center Escribir ensayos críticos sobre las teorías estudiadas.
+
     .bg-amarillo.bg-full-width
       .px-5.pb-md-3.py-4
 
-        .row
-          .col-6.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-6.d-flex.flex-column.justify-content-center
-            p.mb-4(data-aos="fade-up") Esperamos que participen activamente en las actividades grupales e individuales, así como en los foros de discusión. Es importante que se comprometan con la lectura de los artículos, libros y la visualización de los videos proporcionados, dado que estos recursos serán fundamentales para su aprendizaje. No se requiere ningún conocimiento previo específico, pero una actitud abierta y reflexiva, será clave para aprovechar al máximo esta unidad.
-            span(data-aos="fade-up") Estamos emocionados de comenzar este viaje de aprendizaje con ustedes y esperamos que encuentren esta unidad enriquecedora y relevante para su desarrollo personal y profesional.
+        .row.mb-4
+          .col-5.d-none.d-xl-block
+            img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')  
+          .col-12.col-xl-7.d-flex.flex-column.justify-content-center
+            p.mb-4(data-aos="fade-up") Esta unidad está diseñada para proporcionar una comprensión profunda y práctica de los vínculos afectivos y la inteligencia emocional. A través de actividades interactivas y recursos variados, los estudiantes podrán apropiarse de los conceptos y aplicarlos en su vida diaria y profesional. 
+            span(data-aos="fade-up") Se espera que los estudiantes participen activamente en las actividades y utilicen los recursos proporcionados para una mayor apropiación de los temas. Las actividades incluirán discusiones en clase, análisis de casos, y ejercicios prácticos que facilitarán la comprensión y aplicación de los conceptos estudiados.
 
-      
+
 
 </template>
 
