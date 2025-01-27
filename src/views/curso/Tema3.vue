@@ -162,7 +162,7 @@
       div.px-5.pb-md-3.py-4.d-flex
         
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          <iframe width="1903" height="748" src="https://www.youtube.com/embed/3-QSx8ZcyRE" title="Manejo y desarrollo de la inteligencia emocional en diferentes estapas de la vida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     #t_3_4.titulo-segundo(data-aos="flip-up")
       div.d-flex
@@ -274,7 +274,7 @@
               img.mb-4(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Promoción de la empatía
-                p.text-small.px-4.text-center.pb-2 Los programas educativos que enseñan a los estudiantes a comprender las emociones de los demás fomentan relaciones más saludables y reducen el acoso escolar 
+                p.text-small.px-4.text-center.pb-2 Los programas educativos que enseñan a los estudiantes a comprender las emociones de los demás fomentan relaciones más saludables y reducen el acoso escolar.
           .col-10.col-md-6.col-xl-4.mb-4.mx-auto(data-aos="fade-up")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')

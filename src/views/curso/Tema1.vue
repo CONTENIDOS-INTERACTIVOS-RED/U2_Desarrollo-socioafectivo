@@ -67,7 +67,7 @@
     #t_1_1.titulo-segundo(data-aos="flip-up")
       div.d-flex
         span.me-3 1.1  
-        h2 1.1	Implicaciones para el desarrollo
+        h2 Implicaciones para el desarrollo
 
     .row.mb-4
       .col-12.col-xl-7
